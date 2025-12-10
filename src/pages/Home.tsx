@@ -1,59 +1,59 @@
-import './FeaturedProducts.css';
+import Hero from '../components/Hero';
+import FeaturedProducts from '../components/FeaturedProducts';
 
-export default function FeaturedProducts() {
-  const products = [
-    {
-      name: 'The Signature Polo',
-      description: '100% Pima cotton. From the duck blind to the clubhouse.',
-      price: 'Coming Soon',
-      image: '[ Product flatlay ]'
-    },
-    {
-      name: 'The Quarter-Zip',
-      description: 'Versatile layering piece. Built for dawn patrols and afternoon rounds.',
-      price: 'Coming Soon',
-      image: '[ Product flatlay ]'
-    },
-    {
-      name: 'The Button-Down',
-      description: 'Classic oxford cloth. Ready for any occasion.',
-      price: 'Coming Soon',
-      image: '[ Product flatlay ]'
-    }
-  ];
-
+export default function Home() {
   return (
-    <section className="featured-products section">
-      <div className="container">
-        <div className="section-header">
-          <h2>The Collection</h2>
-          <p className="section-subtitle">
-            Crafted pieces designed to move from field to life. Each garment is built 
-            to last, develop character, and become part of your story.
-          </p>
+    <div className="home">
+      <Hero />
+      <FeaturedProducts />
+      
+      <section className="heritage-section section bg-navy">
+        <div className="container">
+          <div className="heritage-content">
+            <h2 style={{ color: 'var(--cream)' }}>Built to Last. Meant to Matter.</h2>
+            <p style={{ color: 'var(--cream)', opacity: 0.9, fontSize: '1.2rem', maxWidth: '800px' }}>
+              Morgan & Mallard isn't about fast fashion or fleeting trends. We're building 
+              a brand that honors sporting tradition, respects the land, and creates pieces 
+              worthy of passing down. Every product we make is designed to develop character 
+              over time—to become part of your story, your hunts, your legacy.
+            </p>
+            <p style={{ color: 'var(--cream)', opacity: 0.9, fontSize: '1.2rem', maxWidth: '800px' }}>
+              A portion of every purchase directly supports wetland restoration and habitat 
+              conservation through The Blue Duck Foundation. When you wear Morgan & Mallard, 
+              you're not just representing a brand—you're supporting the places we hunt, 
+              fish, and conserve for the next generation.
+            </p>
+          </div>
         </div>
-        
-        <div className="products-grid">
-          {products.map((product, index) => (
-            <div key={index} className="product-card">
-              <div className="product-image">
-                <div className="product-placeholder">
-                  <p>{product.image}</p>
-                </div>
-              </div>
-              <div className="product-info">
-                <h3>{product.name}</h3>
-                <p>{product.description}</p>
-                <span className="product-price">{product.price}</span>
-              </div>
-            </div>
-          ))}
+      </section>
+      
+      <section className="newsletter section">
+        <div className="container">
+          <div className="newsletter-content" style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}>
+            <h2>Stay Connected</h2>
+            <p style={{ fontSize: '1.1rem', marginBottom: 'var(--spacing-lg)' }}>
+              Join our community. Be the first to know about new releases, journal stories, 
+              and conservation updates from the land we're building.
+            </p>
+            <form className="newsletter-form" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+              <input 
+                type="email" 
+                placeholder="your@email.com" 
+                style={{
+                  flex: '1',
+                  minWidth: '250px',
+                  padding: '1rem 1.5rem',
+                  border: '2px solid var(--navy)',
+                  backgroundColor: 'white',
+                  fontFamily: 'var(--font-body)',
+                  fontSize: '1rem'
+                }}
+              />
+              <button type="submit" className="primary">Subscribe</button>
+            </form>
+          </div>
         </div>
-        
-        <div className="cta-center">
-          <button className="primary">Join the Waitlist</button>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
