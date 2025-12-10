@@ -5,3 +5,5 @@ dist
 .env
 *.rtf
 .vercel
+*.rtf
+Morgan & Mallard
