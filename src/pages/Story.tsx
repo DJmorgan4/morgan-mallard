@@ -8,8 +8,8 @@ export default function Story() {
           <div className="story-intro">
             <h1>Our Story</h1>
             <p className="story-lead">
-              Morgan & Mallard began with a simple belief: that the best way to 
-              honor sporting tradition is to protect the land it depends on.
+              Morgan & Mallard represents a fundamental shift in how sporting brands approach 
+              conservation—where product quality and environmental stewardship are inseparable.
             </p>
           </div>
         </div>
@@ -21,22 +21,20 @@ export default function Story() {
             <div className="story-block">
               <h2>Heritage</h2>
               <p>
-                For generations, waterfowl hunting has connected people to the land, 
-                to seasons, to tradition. It's taught patience, respect, and the value 
-                of working for something worth having. Morgan & Mallard carries forward 
-                that heritage—not as nostalgia, but as a living practice.
+                Waterfowl hunting has always required intimate knowledge of habitat, migration 
+                patterns, and ecosystem health. This connection between sporting tradition and 
+                environmental understanding forms the foundation of our approach.
               </p>
               <p>
-                We're building apparel that honors this tradition. Pieces that can move 
-                from the duck blind at dawn to the clubhouse by afternoon. Clothing that 
-                doesn't apologize for being refined, because true sportsmen have always 
-                understood that respect for tradition and attention to detail go hand in hand.
+                We design apparel that performs in demanding field conditions while maintaining 
+                the refinement expected in professional settings. This isn't compromise—it's 
+                recognition that serious sportsmen operate across multiple contexts.
               </p>
             </div>
             
             <div className="story-image-block">
               <div className="story-placeholder">
-                [ Duck blind at golden hour ]
+                [ Wetland landscape ]
               </div>
             </div>
           </div>
@@ -44,51 +42,44 @@ export default function Story() {
           <div className="story-grid reverse">
             <div className="story-image-block">
               <div className="story-placeholder">
-                [ Wetland restoration work ]
+                [ Conservation work ]
               </div>
             </div>
             
             <div className="story-block">
-              <h2>Land</h2>
+              <h2>Conservation</h2>
               <p>
-                Good hunting requires good habitat. Good habitat requires work. We don't 
-                just talk about conservation—we're actively engaged in wetland restoration, 
-                land management, and habitat protection across North Texas.
+                Quality habitat doesn't maintain itself. Through our partnership with The Blue Duck 
+                Foundation, we fund active wetland restoration projects across North Texas—water 
+                management systems, native species planting, and long-term habitat monitoring.
               </p>
               <p>
-                Through our partnership with The Blue Duck Foundation, a portion of every 
-                purchase directly funds wetland restoration projects. We're not buying 
-                carbon offsets or writing checks to feel better. We're in the field, doing 
-                the work—managing water levels, planting native species, creating the 
-                habitat that waterfowl and other wildlife depend on.
+                This isn't corporate greenwashing. It's direct investment in the ecosystems that 
+                waterfowl and other wildlife depend on. We measure success in restored acres, 
+                water quality metrics, and species diversity—not in marketing narratives.
               </p>
             </div>
           </div>
           
           <div className="story-grid">
             <div className="story-block">
-              <h2>Legacy</h2>
+              <h2>Standards</h2>
               <p>
-                Morgan & Mallard is the name of a ranch that doesn't exist yet. It's a 
-                vision of what we're building—a place where conservation and tradition 
-                come together, where the land is managed not extracted, where the next 
-                generation can experience what we've been privileged to know.
+                Every product we create is designed for longevity. Natural fibers, timeless 
+                construction, and attention to materials sourcing. We're building a brand 
+                that values durability over disposability—pieces that improve with use rather 
+                than merely wearing out.
               </p>
               <p>
-                Everything we make is designed with permanence in mind. Quality materials, 
-                timeless design, construction that improves with age. These aren't disposable 
-                goods. They're meant to become part of your story, to develop character 
-                alongside you, to be worth passing down.
-              </p>
-              <p>
-                We're building something that lasts. Not just apparel, but a legacy of 
-                land stewardship, sporting tradition, and craftsmanship that means something.
+                This approach requires higher upfront investment in quality, but delivers 
+                significantly better cost-per-wear economics and reduced environmental impact 
+                through extended product life cycles.
               </p>
             </div>
             
             <div className="story-image-block">
               <div className="story-placeholder">
-                [ Ranch landscape vision ]
+                [ Material detail ]
               </div>
             </div>
           </div>
@@ -100,8 +91,8 @@ export default function Story() {
           <div className="cta-content">
             <h2>Join Us</h2>
             <p>
-              Be part of something that matters. Morgan & Mallard is more than apparel—it's 
-              a commitment to the land, to tradition, and to building something permanent.
+              Morgan & Mallard combines field-tested performance with conservation 
+              impact. Products built to last, supporting habitats built to thrive.
             </p>
             <button className="primary">Join the Waitlist</button>
           </div>
